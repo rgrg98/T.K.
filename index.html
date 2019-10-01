@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>T.K.의 음악카페</title>
+	<link href="https://fonts.googleapis.com/css?family=Schoolbell&display=swap" rel="stylesheet">
+</head>
+<style type="text/css">
+
+		#warp{width:1200px;
+		  height: 1000px;
+				}
+
+	    #tk{width:300px;
+	    	position:absolute;
+	    	left:300px;
+	    	top: 200px;
+	    	z-index: 3;
+	    }
+
+	    #li{width:900px;
+	    	position:absolute;
+	    	left:-100px;
+	    	top:-10px;
+	    	z-index:1;
+	    	}
+
+	    #bl{width:200px;
+	    	border-radius:5px;
+	    	position:absolute;
+	    	top:300px;
+	    	left:90px;
+	    	}
+
+	    #bb{width:201px;
+	    	border-radius:5px;
+	    	position:absolute;
+	    	top:300px;
+	    	left:340px;
+	    }
+	    #luv{width:198px;
+	    	border-radius:5px;
+	    	position:absolute;
+	    	top:300px;
+	    	left:570px;
+	    }
+	    #so{width:198px;
+	    	border-radius:5px;
+	    	position:absolute;
+	    	top:300px;
+	    	left:800px;
+	    }
+	    #dd{width:198px;
+	    	border-radius:5px;
+	    	position:absolute;
+	    	top:300px;
+	    	left:1030px;
+	    }
+	    #lsong{width:197px;
+	    	border-radius:5px;
+	    	position:absolute;
+	    	top:300px;
+	    	left:1260px;
+	    }
+
+	    #tl{width:520px;
+	    	position:absolute;
+	    	z-index: 4;
+	    	left:530px;
+	    	top:400px;
+	    }
+	    #tl2{width:520px;
+	    	position:absolute;
+	    	z-index: 3;
+	    	left:530px;
+	    	top:400px;}
+
+	    #t{margin:auto;position:absolute;
+		margin-top:540px;
+		margin-left:550px;
+		color:white;
+		z-index: 3;
+		font-family: 'Schoolbell'}
+		
+		#t2{position:absolute;
+		margin-top:200px;
+		margin-left:600px;
+		color:#f7df2f;
+		z-index: 3;
+		font-size: 45px;
+		font-family: 'Schoolbell'}
+
+
+
+	.thum{ opacity: 0.3;}
+	.thum:hover{opacity: 1; transition: 1s;}
+	.thum2{ opacity: 0.1;}
+	.thum2:hover{opacity: 1; transition: 1s;}
+
+	#ha{margin:auto;position:absolute;
+		margin-top:500px;
+		margin-left:90px;
+		color:white;
+		z-index: 1;
+		font-family: 'Schoolbell'}
+
+	#ha2{margin:auto;position:absolute;
+		margin-top:500px;
+		margin-left:340px;
+		color:white;
+		z-index: 1;
+		font-family: 'Schoolbell'}
+
+	#ha3{margin:auto;position:absolute;
+		margin-top:500px;
+		margin-left:570px;
+		color:white;
+		z-index: 1;
+		font-family: 'Schoolbell'}
+
+	#ha4{margin:auto;position:absolute;
+		margin-top:500px;
+		margin-left:800px;
+		color:white;
+		z-index: 1;
+		font-family: 'Schoolbell'}
+
+	#ha5{margin:auto;position:absolute;
+		margin-top:500px;
+		margin-left:1030px;
+		color:white;
+		z-index: 1;
+		font-family: 'Schoolbell'}
+
+	#ha6{margin:auto;position:absolute;
+		margin-top:500px;
+		margin-left:1260px;
+		color:white;
+		z-index: 1;
+		font-family: 'Schoolbell'}
+
+
+</style>
+<body id="wrap" style="background:#1a1a1a;">
+	<audio autoplay="Bgm">
+	<source src="kkk.ogg" type="audio/ogg">
+	</audio>
+<audio src="blink1.mp3" id="blbl"></audio>
+<audio src="blink2.mp3" id="blbl2"></audio>
+
+<img src="tk3.png" id="tk">
+<p id="t">Click on T.k.</p>
+<p class="thum2" id="t2">Music Cafe of T.K.</p>
+<img src="lighting.png" id="li">
+<img src="talk1.png" id="tl" style="opacity:0">
+<img src="talk2.png" id="tl2"style="opacity:0">
+
+<img class="thum" src="sam.png" id="bl">
+	<audio src="blue.ogg" id="blsam" loop></audio>
+	<p id="ha" style="opacity:0.05">Blue Triangle Gimbap</p>
+
+<img class="thum" src="bo.png" id=bb>
+	<audio src="bosanoba.ogg" id="bosa" loop></audio>
+	<p id="ha2" style="opacity:0.05">T.K. Bosanoba</p>
+
+<img class="thum" src="love.png" id=luv>
+	<audio src="loveu.ogg" id="ilu" loop></audio>
+	<p id="ha3"style="opacity:0.05">I love you</p>
+
+<img class="thum" src="soul.png" id=so>
+	<audio src="souls.ogg" id="sss" loop></audio>
+	<p id="ha4" style="opacity:0.05">T.K. Soul</p>
+
+<img class="thum" src="day.png" id="dd">
+	<audio src="2day.ogg" id="tow" loop></audio>
+	<p id="ha5" style="opacity:0.05">two days ago</p>
+
+<img class="thum" src="lovesong.png" id="lsong">
+	<audio src="lovess.ogg" id="lss" loop></audio>
+	<p id="ha6" style="opacity:0.05">Love song</p>
+
+<script type="text/javascript">
+tk.onclick = function(){
+	tl.style.opacity = "1";
+	t.style.opacity = "0";
+	blbl.play();
+	
+}
+tl.onclick = function(){
+	tl.style.display = "none";
+	tl2.style.opacity = "1";
+	blbl2.play();
+}
+tl2.onclick = function(){
+	tl.style.display = "none";
+	tl2.style.display = "none";
+	tk.style.display = "none";
+	li.style.display = "none"
+	ha.style.opacity = "1";
+	ha2.style.opacity = "1";
+	ha3.style.opacity = "1";
+	ha4.style.opacity = "1";
+	ha5.style.opacity = "1";
+	ha6.style.opacity = "1";
+	blbl2.play();
+}
+var astate = "off";
+			bl.onclick = function(){
+			if(astate == "off"){
+				bl.style.opacity = "1";
+				blsam.play();
+				blsam.volume = 1;
+				astate = "on";
+			}else{
+				bl.style.opacity = "0.8";
+				blsam.pause();
+				astate = "off";
+				}
+			}
+var bstate = "off";
+			bb.onclick = function(){
+			if(astate == "off"){
+				bb.style.opacity = "1";
+				bosa.play();
+				bosa.volume = 1;
+				astate = "on";
+			}else{
+				bb.style.opacity = "0.8";
+				bosa.pause();
+				astate = "off";
+				}
+			}
+var cstate = "off";
+			luv.onclick = function(){
+			if(astate == "off"){
+				luv.style.opacity = "1";
+				ilu.play();
+				ilu.volume = 1;
+				astate = "on";
+			}else{
+				luv.style.opacity = "0.8";
+				ilu.pause();
+				astate = "off";
+				}
+			}
+var dstate = "off";
+			so.onclick = function(){
+			if(astate == "off"){
+				so.style.opacity = "1";
+				sss.play();
+				sss.volume = 1;
+				astate = "on";
+			}else{
+				so.style.opacity = "0.8";
+				sss.pause();
+				astate = "off";
+				}
+			}		
+var estate = "off";
+			dd.onclick = function(){
+			if(astate == "off"){
+				dd.style.opacity = "1";
+				tow.play();
+				tow.volume = 1;
+				astate = "on";
+			}else{
+				dd.style.opacity = "0.8";
+				tow.pause();
+				astate = "off";
+				}
+			}	
+var fstate = "off";
+			lsong.onclick = function(){
+			if(astate == "off"){
+				lsong.style.opacity = "1";
+				lss.play();
+				lss.volume = 1;
+				astate = "on";
+			}else{
+				lsong.style.opacity = "0.8";
+				lss.pause();
+				astate = "off";
+				}
+			}
+														
+
+
+
+</script>
+</body>
+
+</html>
